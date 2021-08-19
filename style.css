@@ -106,28 +106,38 @@ button img{
 	border:1px solid #3897f0!important;
 }
 
-.terms{
-	line-height: 18px;
-	font-size: 14px;
-	color:#999;
-	margin:5px 20px;
+  .content ul{
+	list-style:none;
+	text-align:center;
+	margin-bottom: 10px;
+}
+ .content ul li{
+	display:inline;
+	color:#8e9096;
+}
+
+ .content ul li a{
+	text-decoration:none;
+	font-weight:500;
+	color:#707777;
 }
 
 .mid-column-login{
 	background: #fff;
 	border: 1px solid #e6e6e6;
 	width:380px;
-	margin:10px;
+	height:80px;
+	display:flex;
+	flex-direction: column;margin:10px;
 	position:relative;
 	top:-7px;
 	margin-left:370px;
-	
-	padding:15px;
+	padding:27px;
 }
 
-.mid-column-login p {
-	text-align:center;
-	vertical-align:middle;
+.mid-column-login p > a {
+	text-decoration:none;
+	color:#00a0f7;
 }
 
 
@@ -178,6 +188,9 @@ button img{
 	text-align:center;
 	color: #8e9096;
 	font-size:14px;
+	
 }
 
-
+.footer .service {
+	padding:15px;
+}
