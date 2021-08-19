@@ -112,13 +112,15 @@ button img{
 	margin-bottom: 10px;
 }
  .content ul li{
+	 font-size:14px;
 	display:inline;
 	color:#8e9096;
 }
 
  .content ul li a{
+	  font-size:14px;
 	text-decoration:none;
-	font-weight:500;
+	font-weight:600;
 	color:#707777;
 }
 
